@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;400;600;800&family=Oswald:wght@200;300;400;500;600;700&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.landingpage{
+    background: url('images/background.png');
+    background-color: linear-gradient(180deg, rgba(5, 43, 73, 0.72)0%, rgba(5, 43, 73, 0.90) 100%,),linear-gradient(0deg, #FFF 0%, #FFF 100%),lightgrey 50%;
+    background-blend-mode:normal ,hue ,normal;
+    height:100vh;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.site-header{
+    min-height:100px;
+}
+header{
+    display:block;
+    /* margin:0 auto; */
+}
+.headgroup{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px 0px;
+    flex-wrap: wrap;
+     
+    
+}
+
+.container{
+    margin:0 auto;
+    align-items:center;
+    max-width:1170px;
+}
+.menu-wrap{
+    
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding:10px 10px;
+}
+nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size:14px;
+    font-family:Outfit;
+}
+
+.button{
+    color:#fff;
+    background-color: #3cb54a;
+    padding:10px 10px;
+    border-radius:5px;
+    font-size:14px;
+    font-family:Outfit;
+    margin-left:10px;
+}
+.bottom-container{
+    /* max-width:1170px;
+    margin:0 auto;
+    align-items:center; */
+    height:70vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    align-items:center;
+    margin:0 auto;
+    max-width:1170px;
+}
+
+    
+.bottom-title{
+    font-family: Oswald;
+    font-size: 50px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 400;
+    line-height: 1.2;
+    width:100%;
+    border-bottom:1px solid white;
+    padding-bottom:20px;
+}
+
+.bottom-content {
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex:flex-wrap;
+    width:100%;
+    padding-top:20px;
+}
+.bottom-content-para{
+    color:#fff;
+    font-family:outfit;
+    font-size: 16px;
+    width:400px;
+    
+}
+.bottom-content-buttons{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    gap:20px;
+}
+   
+
+.request{
+    display:flex;
+    align-items:center;
+    color:#fff;
+    background-color: #3cb54a;
+    padding:16px 32px;
+    border-radius:5px;
+    
+    
+}
+.search{
+    
+    background:local;
+    border:1px solid #3cb54a;
+    padding:16px 32px;
+    color:#3cb54a;
+}
